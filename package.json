@@ -1,0 +1,14 @@
+{
+  "name": "yarn",
+  "packageManager": "yarn@3.6.1",
+  "dependencies": {
+    "typia": "4.2.0-dev.20230807"
+  },
+  "devDependencies": {
+    "ts-patch": "3.0.2",
+    "typescript": "5.1.6"
+  },
+  "scripts": {
+    "postinstall": "ts-patch install --verbose"
+  }
+}
