@@ -16,4 +16,4 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - run: yarn
-      - run: yarn postbuild
+      - run: yarn postinstall
